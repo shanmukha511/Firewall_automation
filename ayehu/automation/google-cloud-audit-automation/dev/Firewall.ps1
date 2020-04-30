@@ -89,7 +89,7 @@ $data = Get-Firewall-Data
 
 #Exporting data to CSV
 
-$data = $data |Select-Object -SkipLast 1
+#$data = $data |Select-Object -SkipLast 1
 
 $path2 = $ENV:WORKSPACE + "\ayehu\automation\google-cloud-audit-automation\dev\DEV_Non_Production.csv"
 
